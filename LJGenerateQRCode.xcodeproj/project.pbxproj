@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83519A801B1EAB6600EA0A33 /* NSString+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 83519A7F1B1EAB6600EA0A33 /* NSString+QRCode.m */; };
 		83D7A9821B1D4F1C000A4E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7A9811B1D4F1C000A4E31 /* main.m */; };
 		83D7A9851B1D4F1C000A4E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7A9841B1D4F1C000A4E31 /* AppDelegate.m */; };
 		83D7A9881B1D4F1C000A4E31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7A9871B1D4F1C000A4E31 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83519A7E1B1EAB6600EA0A33 /* NSString+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QRCode.h"; sourceTree = "<group>"; };
+		83519A7F1B1EAB6600EA0A33 /* NSString+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QRCode.m"; sourceTree = "<group>"; };
 		83D7A97C1B1D4F1C000A4E31 /* LJGenerateQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJGenerateQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D7A9801B1D4F1C000A4E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D7A9811B1D4F1C000A4E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				83D7A9841B1D4F1C000A4E31 /* AppDelegate.m */,
 				83D7A9861B1D4F1C000A4E31 /* ViewController.h */,
 				83D7A9871B1D4F1C000A4E31 /* ViewController.m */,
+				83519A7E1B1EAB6600EA0A33 /* NSString+QRCode.h */,
+				83519A7F1B1EAB6600EA0A33 /* NSString+QRCode.m */,
 				83D7A9891B1D4F1C000A4E31 /* Main.storyboard */,
 				83D7A98C1B1D4F1C000A4E31 /* Images.xcassets */,
 				83D7A98E1B1D4F1C000A4E31 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D7A9881B1D4F1C000A4E31 /* ViewController.m in Sources */,
+				83519A801B1EAB6600EA0A33 /* NSString+QRCode.m in Sources */,
 				83D7A9851B1D4F1C000A4E31 /* AppDelegate.m in Sources */,
 				83D7A9821B1D4F1C000A4E31 /* main.m in Sources */,
 			);
@@ -297,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -412,6 +418,7 @@
 				83D7A9A11B1D4F1C000A4E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D7A9A21B1D4F1C000A4E31 /* Build configuration list for PBXNativeTarget "LJGenerateQRCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				83D7A9A41B1D4F1C000A4E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
